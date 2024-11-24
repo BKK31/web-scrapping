@@ -11,8 +11,8 @@ driver_option.add_argument("-incognito")
 driver_option.add_argument("--headless")
 
 # Uncomment the line corresponding to your operating system
-chromedriver_path = './chromedriver'  # For Linux systems
-# chromedriver_path = './chromedriver.exe'  # For Windows Systems
+# chromedriver_path = './chromedriver'  # For Linux systems
+chromedriver_path = './chromedriver.exe'  # For Windows Systems
 
 def create_webdriver():
     service = Service(executable_path=chromedriver_path)
